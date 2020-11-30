@@ -1,1 +1,0 @@
-# number-expressed-as-sum-of-two-primes

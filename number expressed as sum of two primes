@@ -1,0 +1,31 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+main()
+{
+	int x,i;
+	cout<<"enter a  number";
+	cin>>x;
+	for(i=2;i<=(x-1);i=nextprime(i))
+	{
+		if(isprime(x-i))
+		cout<<"sum of 2 numbers is:"<<"i,x-i,x"<<endl;
+	}
+	int nextprime(int n)
+	{
+		do
+		n++;
+		while(!is prime(n))
+		return(n);
+	}
+	int isprime(int n)
+		int i;
+		for(i=2;i<n;i++)
+		{
+			if(n%i==0)
+		return 0;
+	return 1;
+		}
+	}
+}
+ 
